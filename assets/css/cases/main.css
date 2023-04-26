@@ -1,0 +1,85 @@
+/*  */
+.app{
+   padding-top: 134px;
+}
+.head_c{
+   text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+.services{
+   position: relative;
+   width: 100%;
+}
+.services_t{
+   position: relative;
+   width: 100%;
+}
+
+/*  */
+.case_tc{
+   position: relative;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px 30px;
+}
+@media(max-width:500px){
+	.case_tc{
+      grid-template-columns: repeat(1, 1fr);
+	   grid-gap: 30px;
+   }
+}
+
+.case_ti{
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+   transition: transform .17s;
+   
+   background: var(--wh);
+
+   border-radius: 20px;
+   -webkit-box-shadow: 0 4px 60px rgb(0 0 0 / 10%);
+   box-shadow: 0 4px 60px rgb(0 0 0 / 10%);
+}
+.case_tic{
+   position: relative;
+   width: 100%;
+   padding: 25px 30px;
+}
+.case_tic p{
+   margin-bottom: 0.8125em;
+   color: #c8c8c8;
+   font-size: .875em;
+   line-height: 1.21;
+}
+.case_tic div{
+   font-weight: 500;
+   font-size: 1.3125em;
+   line-height: 1.238;
+}
+
+
+.case_tib{
+   position: relative;
+   width: 100%;
+   height: auto;
+   padding-bottom: 65%;
+   border-radius: 0 0 20px 20px;
+   overflow: hidden;
+
+   background-color: var(--wh);
+   background-position: center center;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
